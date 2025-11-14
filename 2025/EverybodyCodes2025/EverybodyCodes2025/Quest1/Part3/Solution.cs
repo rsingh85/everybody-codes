@@ -25,9 +25,7 @@ namespace EverybodyCodes2025.Quest1.Part3
                             (pointer == 0) ? names.Length - 1 : pointer - 1;
                 }
 
-                var nameAtTop = names[0];
-                names[0] = names[pointer];
-                names[pointer] = nameAtTop;
+                (names[pointer], names[0]) = (names[0], names[pointer]);
             }
 
             Console.WriteLine(names[0]);
