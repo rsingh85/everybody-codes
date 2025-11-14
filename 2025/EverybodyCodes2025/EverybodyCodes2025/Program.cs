@@ -1,6 +1,6 @@
 ﻿using EverybodyCodes2025;
 
-ISolution solution = new EverybodyCodes2025.Quest1.Part1.Solution();
+ISolution solution = new EverybodyCodes2025.Quest1.Part3.Solution();
 Console.WriteLine("Running for {0}...", solution.GetType().FullName);
 
 var startDateTime = DateTime.Now;
